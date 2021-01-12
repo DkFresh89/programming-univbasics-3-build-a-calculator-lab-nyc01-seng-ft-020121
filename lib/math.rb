@@ -9,18 +9,20 @@ return delta
 end
 
 def division(num1, num2)
+div = num1 / num2
+end
+
+def multiplication(num1, num2)
 times = num2 * num1
 return times
 end
 
-def multiplication(num1, num2)
-
-end
-
 def modulo(num1, num2)
-
+leftover = num1 % num2
+return leftover
 end
 
 def square_root(num)
-
+root = num * num
+return root
 end
