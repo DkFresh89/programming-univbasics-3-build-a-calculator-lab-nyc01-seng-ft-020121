@@ -23,6 +23,6 @@ return leftover
 end
 
 def square_root(num)
-root = num * num
+root = Math.sqrt(num)
 return root
 end
